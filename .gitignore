@@ -1,0 +1,27 @@
+# Potentially Sensitive Data
+.env
+*.DS_Store
+*.log
+*.zip
+*.json
+*.whl
+*.egg
+*.csv
+*.parquet
+*.xlsx
+*.pdf
+data/in/*
+data/out/*
+
+# Extranneous Files
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+__pycache__/
+poetry.lock
+.Trash*
+
+# Trained Models
+catboost_info/
+*.cat
